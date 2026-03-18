@@ -10,8 +10,7 @@ import {
     SUBJECTS_THCS, SUBJECTS_THPT 
 } from './constants';
 import { generateExamMatrix, generateSpecificationMatrix, generateFullExam } from './services/geminiService';
-import Login from './components/Auth/Login';
-import Register from './components/Auth/Register';
+
 
 // Add XLSX, docx, jspdf, and html2canvas to the window interface for TypeScript
 declare const XLSX: any;
